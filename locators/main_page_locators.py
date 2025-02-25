@@ -1,0 +1,13 @@
+class MainPageLocators:
+    LOGIN_BUTTON = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[1]')
+    LOGIN_FIELD = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div[1]/div/div/div[1]/div/input')
+    PASSWORD_FIELD = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div[2]/div/div/div[1]/input')
+    SUBMIT_LOGIN_BUTTON = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[2]/div[2]/div/div[3]/div[1]')
+    AVATAR = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div[2]/div/div/div')
+    CASINO_BUTTON = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[1]/div/div/div/div[2]/div/div/div[3]/div/div/div/div/div[4]/div')
+    REGISTER_BUTTON = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[2]')
+    NAME_FIELD = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div[1]/div/div[1]/div/div/div/div/div[1]/div/input')
+    EMAIL_FIELD = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div[1]/div/div[2]/div/div/div/div/div[1]/div/input')
+    FIRST_PASSWORD_FIELD = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/div/div/div/div[1]/input')
+    CONFIRM_PASSWORD = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div[1]/div/div[4]/div/div/div/div/div[1]/input')
+    SUBMIT_EMAIL_BUTTON = ('xpath', '//*[@id="rootUI"]/div/div[1]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[3]/div[2]')
